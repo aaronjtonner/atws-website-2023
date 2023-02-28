@@ -18,11 +18,11 @@ export default function FormContact(props) {
       <Container>
         <div>
           <h3 className="title--bold center">
-            <span className="italics">{props.title}</span>
+            <span className="italics">contact me here</span>
           </h3>
           <p className="caps center">
-            Call <AnchorInline href="403-891-3172">403-891-3172</AnchorInline>{" "}
-            or send us a message below!
+            Call <AnchorInline href="587-437-9161">587-437-9161</AnchorInline>{" "}
+            or send me a message below!
           </p>
         </div>
         <Flex className="spacing-lg">
@@ -92,7 +92,7 @@ export default function FormContact(props) {
                   id="msg"
                   cols="30"
                   rows="10"
-                  placeholder="How can we help?"
+                  placeholder="What's your website project?"
                   required
                 />
               </div>

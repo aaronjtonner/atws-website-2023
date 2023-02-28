@@ -6,7 +6,7 @@ import { Info } from "../info"
 import { Container } from "../layoutComponents"
 import { ButtonInline } from "../buttons"
 
-import Logo from "../../images/logo-light.jpg"
+import Logo from "../../images/logo-blue-white.svg"
 import AaronTonnerWebSolutionsLogo from "../../images/aaron-tonner-web-solutions-logo-white-white.svg"
 import Facebook from "../../images/socials/facebook.svg"
 import Instagram from "../../images/socials/instagram.svg"
@@ -194,16 +194,18 @@ export default function Footer() {
           <hr />
           <Flex>
             <FlexItem>
-              <p className="heading">contact us</p>
+              <p className="heading">get in touch</p>
               <ul>
                 <li>
                   <FlexContact>
-                    <a href="tel: 403-891-3172">403-891-3172</a>
+                    <a href="tel: 587-437-9161">587-437-9161</a>
                   </FlexContact>
                 </li>
                 <li>
                   <FlexContact>
-                    <a href="mailto: info@klaadglass.ca">info@klaadglass.ca</a>
+                    <a href="mailto: aaron@aarontonner.com">
+                      aaron@aarontonner.com
+                    </a>
                   </FlexContact>
                 </li>
                 <li>
@@ -221,12 +223,25 @@ export default function Footer() {
                 <div>
                   <a
                     target="_blank"
-                    href="https://www.facebook.com/KLAADGLASS/"
+                    href="https://www.facebook.com/aarontonnerwebsolutions/"
                   >
-                    <img
-                      src={Facebook}
-                      alt="3'D revolution technologies - 3d printing services in calgary"
-                    />
+                    <img src={Facebook} alt="web design company calgary, AB" />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/aaronjtonner/"
+                  >
+                    <img src={Instagram} alt="web design company calgary, AB" />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/aarontonner"
+                  >
+                    <img src={Linkedin} alt="web design company calgary, AB" />
                   </a>
                 </div>
               </Socials>
@@ -244,18 +259,8 @@ export default function Footer() {
                   <StyledLink to="/services">services</StyledLink>
                 </li>
                 <li>
-                  <StyledLink to="/services/home-window-repair-calgary">
-                    home window repair
-                  </StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/services/commercial-window-repair-calgary">
-                    commercial window repair
-                  </StyledLink>
-                </li>
-                <li>
-                  <StyledLink to="/services/storm-doors-calgary">
-                    storm doors
+                  <StyledLink to="/services/web-design-calgary">
+                    web design calgary
                   </StyledLink>
                 </li>
                 <li>
@@ -264,26 +269,21 @@ export default function Footer() {
               </ul>
             </FlexItem>
             <FlexItem className="spacing">
-              <p className="heading">about us</p>
+              <p className="heading">about</p>
               <p>
-                <ButtonInline to=""></ButtonInline>
-                <ButtonInline to="/">KLAAD Glass Ltd.</ButtonInline> is a
-                reliable window & door repair contractor servicing Calgary, AB
-                and surrounding areas. With extensive
-                <ButtonInline to="/services/home-window-repair-calgary">
-                  residential
-                </ButtonInline>{" "}
-                &{" "}
-                <ButtonInline to="/services/commercial-window-repair-calgary">
-                  commercial
-                </ButtonInline>{" "}
-                experience, we can handle your window installation & glass
-                replacement needs,{" "}
-                <ButtonInline to="/services/storm-doors-calgary">
-                  storm door installation
-                </ButtonInline>
-                & repairs, shower systems, commercial mirrors, and more! Call us
-                today to request a free estimate!
+                I am an independent web designer offering website design,
+                website development, and local SEO services. I do things
+                differently here... I build websites to help your business get
+                REAL results (just like how I helped a local contractor 16X his
+                service calls). What sets me apart is the research effort I put
+                into your online competition prior to doing any work. This
+                enables me to help you build a strong online foundation to your
+                long-term marketing success. After 2+ years of helping companies
+                in the construction, lodging, automotive, manufacturing,
+                engineering, and health & wellness industry, I know what it
+                takes to succeed online. If you're looking for REAL online
+                results, it all starts with a conversation. Call me today or
+                book online!
               </p>
             </FlexItem>
           </Flex>
@@ -294,14 +294,17 @@ export default function Footer() {
               <li>{Info.name}</li>
               <li>All Rights Reserved</li>
               <li>
-                <a target="blank" href="https://www.klaadglass.ca/terms-of-use">
+                <a
+                  target="blank"
+                  href="https://www.aarontonner.com/terms-of-use"
+                >
                   Terms of use
                 </a>
               </li>
               <li>
                 <a
                   target="blank"
-                  href="https://www.klaadglass.ca/privacy-policy"
+                  href="https://www.aarontonner.com/privacy-policy"
                 >
                   Privacy Policy
                 </a>

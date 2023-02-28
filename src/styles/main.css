@@ -118,6 +118,13 @@ hr {
   font-family: var(--ff-raleway);
 }
 
+.subheader {
+  font-size: var(--fs-2);
+  font-weight: var(--fw-600);
+  text-transform: capitalize;
+  font-family: var(--ff-open-sans);
+}
+
 .title--bold {
   font-size: var(--fs-1);
   font-weight: var(--fw-700);

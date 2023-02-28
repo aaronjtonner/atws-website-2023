@@ -43,7 +43,7 @@ export default function Benefits() {
           </BenefitItem>
           <BenefitItem className="spacing center">
             <StaticImage
-              src="../../images/results-based-calgary-website-design.svg"
+              src="../../images/trusted-web-designer-calgary.svg"
               alt="results based calgary webdsite design"
               height={80}
             />
@@ -63,7 +63,7 @@ export default function Benefits() {
           </BenefitItem>
           <BenefitItem className="spacing center">
             <StaticImage
-              src="../../images/trusted-web-designer-calgary.svg"
+              src="../../images/results-based-calgary-website-design.svg"
               alt="trusted web designer calgary"
               height={80}
             />

@@ -18,6 +18,11 @@ import ComponentC from "../../components/components/componentC"
 import Gallery from "../../components/components/gallery"
 import Cta1 from "../../components/components/Cta1"
 import { StaticImage } from "gatsby-plugin-image"
+import ComponentD from "../../components/components/componentD"
+import Faq1 from "../../components/components/Faq1"
+import ComponentE from "../../components/components/componentE"
+import FormContact from "../../components/forms/formContact"
+
 export default function WebDesignCalgary() {
   return (
     <Layout>
@@ -208,6 +213,10 @@ export default function WebDesignCalgary() {
           </Flex>
         </Container>
       </Section>
+      <ComponentD />
+      <Faq1 />
+      <ComponentE />
+      <FormContact />
     </Layout>
   )
 }

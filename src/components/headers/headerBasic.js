@@ -21,7 +21,7 @@ const Header = styled.header`
 `
 
 const Headertop = styled.div`
-  padding: 1em 0;
+  padding: 1em 0 0 0;
   display: flex;
   justify-content: space-between;
 
@@ -66,7 +66,7 @@ const Headerbottom = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 0;
+  padding: 0 0 1em 0;
 `
 
 const LogoContainer = styled.div`
@@ -247,11 +247,11 @@ export default function HeaderBasic() {
             </LogoContainer>
             <ul>
               <li>
-                <NavPhone href="tel: 403-891-3172">(403) 891-3172</NavPhone>
+                <NavPhone href="tel: 587-437-9161">(587) 437-9161</NavPhone>
               </li>
               <li>
                 <GetQuote to="/contact">
-                  <span>book service</span>
+                  <span>let's talk &#8594;</span>
                 </GetQuote>
               </li>
             </ul>
@@ -274,24 +274,17 @@ export default function HeaderBasic() {
                   </StyledLink>
                   <ul>
                     <li>
-                      <StyledLink to="/services/home-window-repair-calgary">
-                        home window repair & installation
+                      <StyledLink to="/services/web-design-calgary">
+                        web design & development
                       </StyledLink>
                     </li>
                     <li>
-                      <StyledLink to="/services/commercial-window-repair-calgary">
-                        commercial window repair & installation
-                      </StyledLink>
-                    </li>
-                    <li>
-                      <StyledLink to="/services/storm-doors-calgary">
-                        storm doors
-                      </StyledLink>
+                      <StyledLink>SEO (page coming soon...)</StyledLink>
                     </li>
                   </ul>
                 </Dropdown>
                 <li>
-                  <StyledLink to="/gallery">gallery</StyledLink>
+                  <StyledLink to="/portfolio">portfolio</StyledLink>
                 </li>
                 <li>
                   <StyledLink to="/contact">contact</StyledLink>

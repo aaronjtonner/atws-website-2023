@@ -1,12 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Hero from "../components/heros/hero"
-import Bio from "../components/bio"
-import Guarantee from "../components/guarantee"
-import FullServices from "../components/fullServices"
-import AllReviews from "../components/reviews"
 import FormContact from "../components/forms/formContact"
-import FeaturedGallery from "../components/featuredGallery"
 import SEO from "../components/seo"
 
 export default function index() {
@@ -17,11 +12,6 @@ export default function index() {
         description="KLAAD Glass Ltd. is a reliable window & door repair contractor in Calgary, AB with 25 years of residential & commercial experience. Call 403-272-8932 now!"
       />
       <Hero />
-      <Bio />
-      <Guarantee />
-      <FullServices />
-      <AllReviews />
-      <FeaturedGallery />
       <FormContact title="Write us a message!" />
     </Layout>
   )
