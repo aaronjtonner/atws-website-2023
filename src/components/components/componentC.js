@@ -123,7 +123,7 @@ export default function ComponentC(props) {
                   their operations, look professional and trustworthy online,
                   boost their sales, and get better customers while cutting down
                   on time needed to book new clients through my Calgary website
-                  design services.
+                  design <ButtonInline to="/services">services</ButtonInline>.
                 </p>
               </div>
               <div>
@@ -134,20 +134,21 @@ export default function ComponentC(props) {
                 <p>
                   You can read{" "}
                   <ButtonInline to="/reviews">past client reviews</ButtonInline>
-                  , or check out my portfolio to see how I’ve been doing this.
-                  On your search for an affordable and trustworthy Calgary web
-                  designer, you will notice that most companies are looking to
-                  just provide you with a pretty website. Here at Aaron Tonner
-                  Web Solutions, I certainly aim to help your business look
-                  professional and trustworthy online, but it’s not just about
-                  that when you work with me on your web design and web
-                  development Calgary needs. It’s about asking you the right
-                  questions prior to starting your project that enables me to
-                  learn as much as I can about your business goals and
-                  challenges. I use this information to determine how a website
-                  and marketing solution can truly help you succeed in reaching
-                  your business goals. That’s what sets me apart from the other
-                  top Calgary web designers. 
+                  , or check out my{" "}
+                  <ButtonInline to="/portfolio">portfolio</ButtonInline> to see
+                  how I’ve been doing this. On your search for an affordable and
+                  trustworthy Calgary web designer, you will notice that most
+                  companies are looking to just provide you with a pretty
+                  website. Here at Aaron Tonner Web Solutions, I certainly aim
+                  to help your business look professional and trustworthy
+                  online, but it’s not just about that when you work with me on
+                  your web design and web development Calgary needs. It’s about
+                  asking you the right questions prior to starting your project
+                  that enables me to learn as much as I can about your business
+                  goals and challenges. I use this information to determine how
+                  a website and marketing solution can truly help you succeed in
+                  reaching your business goals. That’s what sets me apart from
+                  the other top Calgary web designers. 
                 </p>
               </div>
               <div>

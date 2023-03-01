@@ -107,7 +107,7 @@ export default function Reviews() {
               for more information. */}
             </p>
           </Text>
-          <GridAuto>
+          <>
             <Review
               name="Nick Holder, Megasets.ai"
               review="We couldn't be happier with our choice to hire Aaron for our web design project. We were asking a lot as not only did we want the finished site to look great, but we wanted it to be very easy for us to customise and add to ourselves. Aaron exceeded our expectations in both regards and kept us updated on a daily basis often by making demo videos to show the direction he was taking and give us insight into how we would be able to work with the site moving forward. One of the best things about working with Aaron was the ideas and suggestions he came up with to take our project to a more professional level. We really wanted someone who could show us the way and come up with ideas for us and this is exactly what we got. We threw all sorts of challenges Aaron's way and each time he came back with a number of options for us and was even willing to create iterations to help us choose the best solution. An example that springs to mind is our choice of homepage image which created problems when making overlaying text readable across all the devices. Aaron was able to fix this so that not only could we use the image we had chosen but the text is beautifully displayed on whichever device it is viewed from. We had a tight deadline for this project and Aaron was very conscious of this and organised the project in such a way that we comfortably achieved that. We can not recommend Aaron highly enough and already have plans to work with him in the future. Many thanks Aaron!"
@@ -150,7 +150,7 @@ export default function Reviews() {
               name="Kathryn Kessler, Pacha Mamma Massage & Misty Ridge Retreat B&B"
               review="Before seeking Aaron’s help, our websites (Misty Ridge Retreat B&B & Pacha Mamma Massage) were bare bones, made quickly without the bells and whistles or any SEO research. Creating a vital, viable website was something that eluded us as well as finding time to learn. Aaron recreated both sites masterfully. We would recommend Aaron to anyone who is having the same struggle as we did. Aaron is very knowledgeable, creative and patient with clients, like me, who do not know the technical side of website building."
             />
-          </GridAuto>
+          </>
         </Container>
       </Section>
       <FormContact />
