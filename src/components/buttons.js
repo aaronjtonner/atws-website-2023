@@ -156,10 +156,11 @@ export const ButtonInline = styled(props => <Link {...props} />)`
 export const AnchorPrimary = styled.a`
   cursor: pointer;
   display: inline-block;
+  font-family: var(--ff-raleway);
   font-size: var(--fs-sm);
   font-weight: var(--fw-button);
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   padding: 1em 1.33em;
   transition: all 0.2s linear;

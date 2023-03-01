@@ -197,7 +197,9 @@ export default function Faq1(props) {
               </AccordionItem>
             </Accordion>
             <div className="spacing-md">
-              <h2 className="title">why is a website so important?!</h2>
+              <h2 className="title">
+                why is a website so important for Calgary businesses?!
+              </h2>
               <div className="spacing">
                 <p>
                   Are you a business owner who is struggling to grow and expand

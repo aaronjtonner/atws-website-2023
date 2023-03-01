@@ -107,7 +107,7 @@ const Review = props => {
   )
 }
 
-const AllReviews = () => {
+const AllReviews = props => {
   return (
     <Section>
       <GridWrapper>
@@ -121,15 +121,35 @@ const AllReviews = () => {
               <FaStar style={fontStyle} />
               <FaStar style={fontStyle} />
             </FlexStars> */}
-            <div className="spacing">
-              <h2 className="title light">
-                dedicated to providing real results for my clients
-              </h2>
-              <p className="light">
-                Lorem ipsum dolor sit amet consectetur. Convallis ut facilisis
-                sapien netus. Nibh enim vitae sed bibendum elit at proin neque
-                arcu.
-              </p>
+            <div className="spacing-md">
+              <div>
+                <p className="subheader accent">{props.subheader}</p>
+                <h2 className="title light">{props.title}</h2>
+              </div>
+              <div className="spacing">
+                <p className="light">
+                  Working with your new adept{" "}
+                  <span className="bold italics">Calgary web design</span>{" "}
+                  service provider means it is completely up to you on how
+                  involved you would like to be on your next website, landing
+                  page, eCommerce, or SEO project.
+                </p>
+                <p className="light">
+                  Some clients love when I take full control of their website
+                  design or SEO campaign because it’ll be unique and spot on to
+                  your branding. Other’s love a more collaborative approach that
+                  is taken for the overall look and feel of their new website,
+                  or SEO campaign message.
+                </p>
+                <p className="light">
+                  Either way, the priority remains:{" "}
+                  <span className="bold italics">
+                    you will see real results{" "}
+                  </span>
+                  come from getting an expert to improve your website, SEO, and
+                  online presence.
+                </p>
+              </div>
               <ButtonPrimary to="/contact">
                 get real results &#8594;
               </ButtonPrimary>

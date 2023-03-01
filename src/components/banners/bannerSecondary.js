@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Container, Flex, Actions } from "../layoutComponents"
 import {
+  AnchorPrimary,
   AnchorUnderline,
   ButtonPrimary,
   ButtonSecondaryDark,
@@ -50,14 +51,14 @@ const Bottom = styled.div`
 
 const Text = styled.div`
   color: var(--txt-light);
-  max-width: 70ch;
+  max-width: 90ch;
   width: 100%;
   padding-bottom: 3em;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 
-  h2 {
+  h1 {
     text-shadow: var(--shadow-light-accent);
     font-size: var(--fs-1);
     font-weight: var(--fw-900);
@@ -86,13 +87,11 @@ export default function BannerSecondary(props) {
               to3={props.to3}
               link3={props.link3}
             />
-            <h2>get the website you deserve</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Provident modi similique, suscipit eius odio cupiditate
-              temporibus. Sed aliquam quidem ea.
-            </p>
-            <ButtonPrimary to="/">call me to an action</ButtonPrimary>
+            <h1>{props.title}</h1>
+            <p>{props.description}</p>
+            <AnchorPrimary href="tel: 587-437-9161">
+              call for quote: (587)-437-9161
+            </AnchorPrimary>
           </Text>
         </Container>
       </HeroWrapper>

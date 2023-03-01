@@ -17,6 +17,7 @@ const device = {
 const HeroGrid = styled.div`
   display: grid;
   grid-template-rows: auto 2em auto;
+  margin-bottom: 4em;
 `
 
 const HeroWrapper = styled.div`
@@ -34,6 +35,12 @@ const HeroWrapper = styled.div`
     min-height: 100vh;
     height: 100%;
   }
+
+  .hero-img-left {
+    @media screen and (max-width: 48em) {
+      display: none;
+    }
+  }
 `
 
 const Bottom = styled.div`
@@ -41,11 +48,13 @@ const Bottom = styled.div`
   grid-row: 2 / -1;
   z-index: 2;
   border-radius: var(--br);
-  box-shadow: var(--shadow-light-accent);
+  box-shadow: var(--shadow-light);
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background: var(--clr-light);
+  background: var(--clr-dark);
+  color: var(--txt-light);
+  padding: 2em;
 `
 
 const Text = styled.div`
@@ -74,28 +83,36 @@ export default function HeroBasic() {
     <HeroGrid>
       <HeroWrapper>
         <Container>
-          <Text className="spacing-lg">
-            <h1 className="caps bold">get the website you deserve</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Provident modi similique, suscipit eius odio cupiditate
-              temporibus. Sed aliquam quidem ea. Temporibus obcaecati veniam
-              corporis, architecto quae voluptates nemo ratione magni.
-              Voluptatibus, quo voluptate! Quos accusantium maiores ea
-              consequuntur nostrum voluptatum, odio doloremque vitae quasi.
-              Nobis, doloremque! Cum voluptate rerum quis alias fugiat
-              accusantium sapiente iste, aliquam optio praesentium voluptas
-              soluta nam temporibus ipsa? Ducimus cupiditate officia molestias
-              suscipit aut placeat, ex vel facilis autem modi!
-            </p>
-            <ButtonPrimary to="/">call me to an action</ButtonPrimary>
-          </Text>
+          <Flex>
+            <Text className="spacing">
+              <div>
+                <h1 className="caps bold">
+                  {/* custom websites with winning SEO strategies */}
+                  fully optimized custom websites for maximum impact
+                </h1>
+              </div>
+              <p>
+                I specialize in building{" "}
+                <span className="italics">
+                  high-performance custom websites that implement winning SEO
+                  strategies
+                </span>{" "}
+                and I provide ongoing website maintenance, so your website is
+                always up-to-date and fully optimized for maximum online impact.
+              </p>
+              <ButtonPrimary to="/portfolio">see my work &#8594;</ButtonPrimary>
+            </Text>
+            <StaticImage
+              src="../../images/hero-1.jpg"
+              className="hero-img-left"
+            />
+          </Flex>
         </Container>
       </HeroWrapper>
       <Bottom>
         <Flex>
           <StaticImage
-            src="../../images/web-design-klaad-mockup-1.jpg"
+            src="../../images/klaad-mockup-1-dark.jpg"
             alt="website design mockup"
           />
           <div>

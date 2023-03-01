@@ -14,15 +14,31 @@ const GridAuto = styled.div`
   }
 `
 
+const Text = styled.div`
+  max-width: 90ch;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+`
+
 export default function Clients() {
   return (
     <Section>
       <Container className="spacing">
-        <h2 className="title center">
-          some of my <span className="italics text-shadow">awesome</span> web
-          design clients...
-        </h2>
-        <p></p>
+        <Text>
+          <h2 className="title center">
+            some of my <span className="italics text-shadow">awesome</span> web
+            design & SEO clients...
+          </h2>
+          <p>
+            Since starting a web design & development business in early 2020, I
+            have had the pleasure of working with a variety of industries on
+            their website and SEO, including construction & home services,
+            lodging, automotive, manufacturing, engineering, health & wellness,
+            fine arts, advertising, and more. Below are a few of those lucky
+            clients!
+          </p>
+        </Text>
         <GridAuto>
           <StaticImage
             src="../../images/clients/web-design-calgary-client-1.svg"

@@ -19,6 +19,7 @@ const Text = styled.div`
   max-width: 90ch;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 `
 
 const SliderWrapper = styled.div`
@@ -42,10 +43,6 @@ export default function ComponentD() {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
   }
   return (
     <Section>
@@ -53,8 +50,12 @@ export default function ComponentD() {
         <Text className="spacing">
           <Container className="spacing">
             <div>
-              <p className="subheader bold upper">subheader</p>
-              <h2 className="title">diverse industry experience</h2>
+              <p className="subheader italics accent">
+                Bringing a Fresh Perspective to Your Online Presence
+              </p>
+              <h2 className="title">
+                Industry-Seasoned Web Designer in Calgary
+              </h2>
             </div>
             <p>
               My Calgary Alberta web design services are meant to help a large
@@ -64,7 +65,7 @@ export default function ComponentD() {
             </p>
           </Container>
         </Text>
-        <SliderWrapper>
+        {/* <SliderWrapper>
           <Container>
             <Slider {...settings}>
               <SliderItem className="spacing">
@@ -199,7 +200,7 @@ export default function ComponentD() {
               </SliderItem>
             </Slider>
           </Container>
-        </SliderWrapper>
+        </SliderWrapper> */}
       </GridWrapper>
     </Section>
   )

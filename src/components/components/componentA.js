@@ -38,19 +38,23 @@ const ComponentA = () => {
         <Content className="spacing center">
           <Container className="spacing-lg">
             <Text className="spacing">
-              <h1 className="title">web design calgary</h1>
+              <div>
+                <p className="subheader">
+                  let's take your website to the next level
+                </p>
+                <h2 className="title">
+                  Your New website design calgary professional
+                </h2>
+              </div>
               <p>
-                I am an independent and highly reviewed web design Calgary
-                specialist focused on helping clients achieve increased online
-                visibility and customer conversions to maximize business
-                revenue. You’re trying to make more money for your business but
-                your current website and online presence isn’t helping you
-                overcome the sales and marketing challenges of doing so. The
-                solution to overcome those common business challenges is to work
-                with a trusted website design Calgary professional whose mission
-                is to advance your sales and marketing efforts so you can grow
-                and expand your business by increasing your customer connections
-                and revenue through a standout online presence.
+                You’re trying to make more money for your business but your
+                current website and online presence isn’t helping you overcome
+                the sales and marketing challenges of doing so. The solution to
+                overcome those common business challenges is to work with a
+                trusted website design Calgary professional whose mission is to
+                advance your sales and marketing efforts so you can grow and
+                expand your business by increasing your customer connections and
+                revenue through a standout online presence.
               </p>
               <ButtonPrimary to="/contact">get in touch &#8594;</ButtonPrimary>
             </Text>

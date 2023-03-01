@@ -21,7 +21,8 @@ export default function FormContact(props) {
             <span className="italics">contact me here</span>
           </h3>
           <p className="caps center">
-            Call <AnchorInline href="587-437-9161">587-437-9161</AnchorInline>{" "}
+            Call{" "}
+            <AnchorInline href="tel: 587-437-9161">587-437-9161</AnchorInline>{" "}
             or send me a message below!
           </p>
         </div>

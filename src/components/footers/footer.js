@@ -256,11 +256,19 @@ export default function Footer() {
                   <StyledLink to="/about">about</StyledLink>
                 </li>
                 <li>
+                  <StyledLink to="/portfolio">portfolio</StyledLink>
+                </li>
+                <li>
                   <StyledLink to="/services">services</StyledLink>
                 </li>
                 <li>
                   <StyledLink to="/services/web-design-calgary">
-                    web design calgary
+                    web design
+                  </StyledLink>
+                </li>
+                <li>
+                  <StyledLink to="/services/calgary-seo-services">
+                    Search Engine Optimization (SEO)
                   </StyledLink>
                 </li>
                 <li>
@@ -271,27 +279,27 @@ export default function Footer() {
             <FlexItem className="spacing">
               <p className="heading">about</p>
               <p>
-                I am an independent web designer offering website design,
-                website development, and local SEO services. I do things
-                differently here... I build websites to help your business get
-                REAL results (just like how I helped a local contractor 16X his
-                service calls). What sets me apart is the research effort I put
-                into your online competition prior to doing any work. This
-                enables me to help you build a strong online foundation to your
-                long-term marketing success. After 2+ years of helping companies
-                in the construction, lodging, automotive, manufacturing,
-                engineering, and health & wellness industry, I know what it
-                takes to succeed online. If you're looking for REAL online
-                results, it all starts with a conversation. Call me today or
-                book online!
+                I am an independent web designer based in Calgary offering
+                website design, website development, and local SEO services. I
+                do things differently here... I build websites to help your
+                business get REAL results (just like how I helped a local
+                contractor 16X his service calls). What sets me apart is the
+                research effort I put into your online competition prior to
+                doing any work. This enables me to help you build a strong
+                online foundation to your long-term marketing success. After 2+
+                years of helping companies in the construction, lodging,
+                automotive, manufacturing, engineering, and health & wellness
+                industry, I know what it takes to succeed online. If you're
+                looking for REAL online results, it all starts with a
+                conversation. Call me today or book online!
               </p>
             </FlexItem>
           </Flex>
           <hr />
           <Copyright>
             <ul>
-              <li>Copyright&#169; 2022</li>
-              <li>{Info.name}</li>
+              <li>Copyright&#169; 2023</li>
+              <li>Aaron Tonner Web Solutions</li>
               <li>All Rights Reserved</li>
               <li>
                 <a

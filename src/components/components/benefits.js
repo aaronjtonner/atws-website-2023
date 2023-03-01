@@ -1,12 +1,18 @@
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
-import { ButtonPrimary } from "../buttons"
+import { ButtonInline, ButtonPrimary } from "../buttons"
 import { Container, GridThree, Section } from "../layoutComponents"
 
 const StyledImg = styled(GatsbyImage)`
   max-height: 100px;
   max-width: 100px;
+`
+
+const Text = styled.div`
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
 `
 
 const BenefitItem = styled.div`
@@ -21,11 +27,11 @@ export default function Benefits() {
   return (
     <Section>
       <Container className="spacing-md">
-        <div className="center">
+        <Text className="center">
           <h2 className="title">
             The Benefits Of Hiring Me As Your Calgary Web Designer
           </h2>
-        </div>
+        </Text>
         <GridThree>
           <BenefitItem className="spacing center">
             <StaticImage
@@ -35,10 +41,14 @@ export default function Benefits() {
             />
             <h3 className="title caps">5-star services</h3>
             <p>
-              I provide 5-star Calgary web design services and have a background
-              in engineering and solving complex problems which have translated
-              to my ability in solving sales and marketing challenges that might
-              be preventing you from reaching your business goals.
+              I provide{" "}
+              <span className="italics bold">
+                5-star Calgary web design services
+              </span>{" "}
+              and have a background in engineering and solving complex problems
+              which have translated to my ability in solving sales and marketing
+              challenges that might be preventing you from reaching your
+              business goals.
             </p>
           </BenefitItem>
           <BenefitItem className="spacing center">
@@ -54,11 +64,16 @@ export default function Benefits() {
               design, SEO, and online visibility efforts. Here are a few results
               I’ve gotten for past clients: helped a client in the construction
               industry{" "}
-              <span className="italics accent">
+              <span className="italics">
                 double their website traffic for increased sales,{" "}
               </span>
               helped a business receive funding from investors and acquire
               multiple international clients for their professional IT services.
+              Recently helped a glass contractor{" "}
+              <span className="italics">16x their bookings.</span>{" "}
+              <ButtonInline to="/portfolio">
+                There's more where that came from &#x2192;
+              </ButtonInline>
             </p>
           </BenefitItem>
           <BenefitItem className="spacing center">
@@ -69,18 +84,21 @@ export default function Benefits() {
             />
             <h3 className="title caps">direct communication</h3>
             <p>
-              Working with your trusted web designer in Calgary means that you
-              will always have easy and direct contact with me whether it be
-              through phone or email. No more waiting on hold with your web
-              design company or agency that has to go through 5 different people
-              to talk to the right person. Anytime you reach out to me, I’ll be
-              there.
+              Working with your trusted{" "}
+              <span className="italics bold">Calgary web designer</span> means
+              that you will always have easy and direct contact with me whether
+              it be through phone or email. No more waiting on hold with your
+              web design company or agency that has to go through 5 different
+              people to talk to the right person. Anytime you reach out to me,
+              I’ll be there.
             </p>
           </BenefitItem>
         </GridThree>
-        <center>
-          <ButtonPrimary to="/contact">get a website quote</ButtonPrimary>
-        </center>
+        {/* <center>
+          <ButtonPrimary to="/contact">
+            get a website quote &#x2192;
+          </ButtonPrimary>
+        </center> */}
       </Container>
     </Section>
   )

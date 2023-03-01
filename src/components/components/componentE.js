@@ -1,6 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
+import { ButtonPrimary } from "../buttons"
 import { Container, Flex, Section } from "../layoutComponents"
 
 const Wrapper = styled.div`
@@ -52,52 +53,40 @@ export default function ComponentE() {
                   your relationship with them is an important metric to
                   illustrate how my web development services Calgary can provide
                   you with a positive ROI. My Calgary web design prices are
-                  determined by four additional main factors:
+                  determined by additional factors: your business goals and
+                  challenges.
+                </p>
+                <p className="bold italics">
+                  The #1 goal when it comes to determining a Calgary web design
+                  cost is that it will result in a positive return on your
+                  investment. Every business is different which means project
+                  cost is always different. If you would like to discuss the
+                  above points to learn more about how I can help your business
+                  and to determine a web design price that aligns with your
+                  goals and budget, send me a message to arrange a quick call or
+                  to get quote.
                 </p>
               </div>
-              <List className="spacing">
+              {/* <List className="spacing">
                 <div>
-                  <h3 className="subheader">
-                    Where you are currently at with your business and the goals
-                    you have
-                  </h3>
+                  <h3 className="subheader">your business goals</h3>
                   <p className="body--small">This is used for...</p>
                   <hr />
                 </div>
 
                 <div>
                   <h3 className="subheader">
-                    The challenges you are faced with in reaching your goals
+                    The challenges you're faced with
                   </h3>
                   <p className="body--small">This is used for...</p>
                   <hr />
                 </div>
-
-                <div>
-                  <h3 className="subheader">
-                    What it means for your business to reach those goals
-                  </h3>
-                  <p className="body--small">This is used for...</p>
-                  <hr />
-                </div>
-
-                <div>
-                  <h3 className="subheader">Your customer lifetime value</h3>
-                  <p className="body--small">This is used for...</p>
-                  <hr />
-                </div>
-              </List>
+              </List> */}
+              <ButtonPrimary to="/contact">
+                get a website quote &#8594;
+              </ButtonPrimary>
             </Text>
           </Flex>
-          <p className="bold italics last">
-            My #1 goal when it comes to determining a Calgary web design cost is
-            that it will result in a positive return on your investment. Every
-            business is different which means project cost is always different.
-            If you would like to discuss the above points to learn more about
-            how I can help your business and to determine a web design price
-            that aligns with your goals and budget, send me a message to arrange
-            a quick call or to get quote.
-          </p>
         </Container>
       </Section>
     </Wrapper>

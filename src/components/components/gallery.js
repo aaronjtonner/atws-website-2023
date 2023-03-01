@@ -63,11 +63,13 @@ export default function Gallery() {
             your business
           </h2>
           <p>
-            Below are a few recent Calgary Alberta website design and
-            development projects that I’ve launched to help local businesses
+            Below are a few recent{" "}
+            <span className="italics bold">Calgary Alberta website design</span>{" "}
+            and development projects that I’ve launched to help local businesses
             just like yours grow and expand their online presence and get seen
             by more customers that are searching for their services on the
-            internet.
+            internet. Simply click on the images below and you will be taken to
+            the corresponding live website.
           </p>
         </Text>
         <GridTwo>
@@ -167,10 +169,10 @@ export default function Gallery() {
           <p>
             Call me at{" "}
             <AnchorInline href="tel: 587-437-9161">587-437-9161</AnchorInline>{" "}
-            or fill out my contact form to request a service or free website
-            quote!
+            or fill out my contact form to request a service or free Calgary
+            website quote!
           </p>
-          <ButtonPrimary to="/contact">request quote</ButtonPrimary>
+          <ButtonPrimary to="/contact">request quote &#x2192;</ButtonPrimary>
         </div>
       </Container>
     </Section>

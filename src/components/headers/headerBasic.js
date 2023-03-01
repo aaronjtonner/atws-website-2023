@@ -57,7 +57,7 @@ const NavPhone = styled.a`
     opacity: 0.7;
   }
 
-  @media screen and (max-width: 32em) {
+  @media screen and (max-width: 48em) {
     display: none;
   }
 `
@@ -279,7 +279,9 @@ export default function HeaderBasic() {
                       </StyledLink>
                     </li>
                     <li>
-                      <StyledLink>SEO (page coming soon...)</StyledLink>
+                      <StyledLink to="/services/calgary-seo-services">
+                        Search engine optimization (SEO)
+                      </StyledLink>
                     </li>
                   </ul>
                 </Dropdown>

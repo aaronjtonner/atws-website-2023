@@ -1,54 +1,114 @@
 import React from "react"
 import styled from "styled-components"
-import { Container, Actions } from "../layoutComponents"
-import { ButtonPrimary, AnchorInline } from "../buttons"
-import Breadcrumb2Links from "../breadcrumbs/breadcrumb2links"
+import { Container, Flex, Actions } from "../layoutComponents"
+import {
+  AnchorPrimary,
+  AnchorUnderline,
+  ButtonPrimary,
+  ButtonSecondaryDark,
+  ButtonUnderline,
+} from "../buttons"
+import { StaticImage } from "gatsby-plugin-image"
+import { FaCheckCircle } from "react-icons/fa"
+import BreadCrumb2Links from "../breadcrumbs/breadcrumb2links"
 
-const Wrapper = styled.div`
-  background: url("../../images/banner-primary.jpg"), rgba(0, 0, 0, 0.7);
-  background-blend-mode: overlay;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+const device = {
+  md: "43em",
+}
 
+const HeroGrid = styled.div`
+  display: grid;
+  grid-template-rows: auto 2em auto;
+`
+
+const HeroWrapper = styled.div`
+  background: var(--clr-dark);
+  height: 100%;
+  grid-column: 1 / -1;
+  grid-row: 1 / span 2;
+  z-index: 1;
   padding: 4em 0;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 26em) {
+    min-height: 100vh;
+    height: 100%;
+  }
+`
+
+const Bottom = styled.div`
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  z-index: 2;
+  border-radius: var(--br);
+  box-shadow: var(--shadow-light-accent);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--clr-light);
 `
 
 const Text = styled.div`
-  max-width: 70ch;
-  width: 100%;
   color: var(--txt-light);
+  max-width: 90ch;
+  width: 100%;
+  padding-bottom: 3em;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+  h1 {
+    text-shadow: var(--shadow-light-accent);
+    font-size: var(--fs-1);
+    font-weight: var(--fw-900);
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-family: var(--ff-raleway);
+
+    @media screen and (min-width: 45em) {
+      font-size: 4rem;
+      line-height: 1;
+    }
+  }
 `
 
-// banner with only 2 links in the breadcrumb
-export default function Banner(props) {
+export default function BannerPrimary(props) {
   return (
-    <Wrapper>
-      <Container className="spacing">
-        <Text className="spacing">
-          <div>
-            <Breadcrumb2Links
+    <HeroGrid>
+      <HeroWrapper>
+        <Container>
+          <Text className="spacing">
+            <BreadCrumb2Links
               to1={props.to1}
               link1={props.link1}
               to2={props.to2}
               link2={props.link2}
             />
-            <hr />
-            <h1 className="title bold">{props.title}</h1>
+            <h1>{props.title}</h1>
+            <p>{props.description}</p>
+            <AnchorPrimary href="tel: 587-437-9161">
+              click here to dial: (587)-437-9161
+            </AnchorPrimary>
+          </Text>
+        </Container>
+      </HeroWrapper>
+      {/* <Bottom>
+        <Flex>
+          <StaticImage
+            src="../../images/web-design-klaad-mockup-1.jpg"
+            alt="website design mockup"
+          />
+          <div>
+            <h2 className="title caps">
+              contractor gets 16x more bookings in 60 days
+            </h2>
+            <AnchorUnderline href="https://www.klaadglass.ca" target="_blank">
+              visit this website &#8594;
+            </AnchorUnderline>
           </div>
-          <p className="body--small">
-            We can help you with quality window, door, and glass products &
-            services for your home.
-          </p>
-          <Actions>
-            <ButtonPrimary to="/contact">get free estimate</ButtonPrimary>
-            <AnchorInline className="bold italics" href="tel: 403-891-3172">
-              <span className="light">Or Call Us:</span> <br />
-              403-891-3172
-            </AnchorInline>
-          </Actions>
-        </Text>
-      </Container>
-    </Wrapper>
+        </Flex>
+      </Bottom> */}
+    </HeroGrid>
   )
 }
