@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Window Contractor",
+    title: "ATWS",
     titleTemplate: "%s",
-    description: "Klaad glass",
-    url: "https://www.klaadglass.ca", // No trailing slash allowed!
-    siteUrl: "https://www.klaadglass.ca",
-    image: "/logo.svg", // Path to your image you placed in the 'static' folder
+    description: "websites",
+    url: "https://www.aarontonner.com", // No trailing slash allowed!
+    siteUrl: "https://www.aarontonner.com",
+    image: "/logo-light.svg", // Path to your image you placed in the 'static' folder
     twitterUsername: "",
   },
   plugins: [
@@ -19,14 +19,25 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    // sitemap
+    `gatsby-plugin-sitemap`,
+    // ga
     {
-      resolve: "gatsby-plugin-sitemap",
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        exclude: [`/privacy-policy/`, `/terms-of-use/`],
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-180678384-1",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Defers execution of google analytics script after page load
+        defer: false,
       },
     },
-    // GA
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
