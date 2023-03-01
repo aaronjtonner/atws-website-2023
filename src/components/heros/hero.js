@@ -32,8 +32,8 @@ const HeroWrapper = styled.div`
   align-items: center;
 
   @media screen and (max-width: 26em) {
-    min-height: 100vh;
-    height: 100%;
+    // min-height: 100vh;
+    // height: 100%;
   }
 
   .hero-img-left {
