@@ -185,7 +185,7 @@ hr {
 }
 
 .light {
-  color: var(--txt-light-secondary);
+  color: var(--txt-light);
 }
 
 .text-shadow {

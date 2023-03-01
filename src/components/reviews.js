@@ -162,7 +162,7 @@ const AllReviews = props => {
                   come from getting an expert to{" "}
                   <ButtonInline to="/services/web-design-calgary">
                     improve your website
-                  </ButtonInline>{" "}
+                  </ButtonInline>
                   , SEO, and online presence.
                 </p>
               </div>

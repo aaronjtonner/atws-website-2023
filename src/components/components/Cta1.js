@@ -35,7 +35,7 @@ export default function Cta1() {
           <p className="">
             Don't settle for a website that's going to sit there doing nothing
             for you. Hire your new{" "}
-            <ButtonInline to="/services/web-design-calgary">
+            <ButtonInline className="light" to="/services/web-design-calgary">
               web designer in Calgary
             </ButtonInline>{" "}
             to captivate your audience while you outshine, outrank, and

@@ -64,7 +64,7 @@ export default function Benefits() {
               design,{" "}
               <ButtonInline to="/services/calgary-seo-services">
                 SEO
-              </ButtonInline>{" "}
+              </ButtonInline>
               , and online visibility efforts. Here are a few results I’ve
               gotten for past clients: helped a client in the construction
               industry{" "}

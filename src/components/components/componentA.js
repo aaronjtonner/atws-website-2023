@@ -50,12 +50,12 @@ const ComponentA = () => {
                 You’re trying to make more money for your business but your
                 current website and online presence isn’t helping you overcome
                 the sales and marketing challenges of doing so. The solution to
-                overcome those common business challenges is to work with a
-                <ButtonInline to="reviews">trusted</ButtonInline> website design
-                Calgary professional whose mission is to advance your sales and
-                marketing efforts so you can grow and expand your business by
-                increasing your customer connections and revenue through a
-                standout online presence.
+                overcome those common business challenges is to work with a{" "}
+                <ButtonInline to="/reviews">trusted</ButtonInline> website
+                design Calgary professional whose mission is to advance your
+                sales and marketing efforts so you can grow and expand your
+                business by increasing your customer connections and revenue
+                through a standout online presence.
               </p>
               <ButtonPrimary to="/contact">get in touch &#8594;</ButtonPrimary>
             </Text>
