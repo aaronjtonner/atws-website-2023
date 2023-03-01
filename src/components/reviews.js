@@ -4,7 +4,7 @@ import { FaStar, FaGoogle } from "react-icons/fa"
 import { FcGoogle } from "react-icons/fc"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, GridAuto, Section } from "./layoutComponents"
-import { ButtonPrimary } from "./buttons"
+import { ButtonInline, ButtonPrimary } from "./buttons"
 
 const GridWrapper = styled.div`
   display: grid;
@@ -129,25 +129,41 @@ const AllReviews = props => {
               <div className="spacing">
                 <p className="light">
                   Working with your new adept{" "}
-                  <span className="bold italics">Calgary web design</span>{" "}
-                  service provider means it is completely up to you on how
-                  involved you would like to be on your next website, landing
-                  page, eCommerce, or SEO project.
+                  <ButtonInline
+                    to="/services/web-design-calgary"
+                    className="bold italics"
+                  >
+                    Calgary web design service
+                  </ButtonInline>{" "}
+                  provider means it is completely up to you on how involved you
+                  would like to be on your next website, landing page,
+                  eCommerce, or{" "}
+                  <ButtonInline to="/services/calgary-seo-services">
+                    SEO
+                  </ButtonInline>{" "}
+                  project.
                 </p>
                 <p className="light">
                   Some clients love when I take full control of their website
                   design or SEO campaign because it’ll be unique and spot on to
                   your branding. Other’s love a more collaborative approach that
                   is taken for the overall look and feel of their new website,
-                  or SEO campaign message.
+                  or{" "}
+                  <ButtonInline to="/services/calgary-seo-services">
+                    SEO campaign
+                  </ButtonInline>{" "}
+                  messaging.
                 </p>
                 <p className="light">
                   Either way, the priority remains:{" "}
                   <span className="bold italics">
                     you will see real results{" "}
                   </span>
-                  come from getting an expert to improve your website, SEO, and
-                  online presence.
+                  come from getting an expert to{" "}
+                  <ButtonInline to="/services/web-design-calgary">
+                    improve your website
+                  </ButtonInline>{" "}
+                  , SEO, and online presence.
                 </p>
               </div>
               <ButtonPrimary to="/contact">

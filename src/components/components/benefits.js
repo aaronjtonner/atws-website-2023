@@ -42,9 +42,9 @@ export default function Benefits() {
             <h3 className="title caps">5-star services</h3>
             <p>
               I provide{" "}
-              <span className="italics bold">
+              <ButtonInline to="/reviews" className="italics bold">
                 5-star Calgary web design services
-              </span>{" "}
+              </ButtonInline>{" "}
               and have a background in engineering and solving complex problems
               which have translated to my ability in solving sales and marketing
               challenges that might be preventing you from reaching your
@@ -61,8 +61,12 @@ export default function Benefits() {
             <p>
               I am confident that you will begin to see results for your
               business 90 days after working with me on your Calgary website
-              design, SEO, and online visibility efforts. Here are a few results
-              I’ve gotten for past clients: helped a client in the construction
+              design,{" "}
+              <ButtonInline to="/services/calgary-seo-services">
+                SEO
+              </ButtonInline>{" "}
+              , and online visibility efforts. Here are a few results I’ve
+              gotten for past clients: helped a client in the construction
               industry{" "}
               <span className="italics">
                 double their website traffic for increased sales,{" "}
@@ -84,13 +88,15 @@ export default function Benefits() {
             />
             <h3 className="title caps">direct communication</h3>
             <p>
-              Working with your trusted{" "}
-              <span className="italics bold">Calgary web designer</span> means
-              that you will always have easy and direct contact with me whether
-              it be through phone or email. No more waiting on hold with your
-              web design company or agency that has to go through 5 different
-              people to talk to the right person. Anytime you reach out to me,
-              I’ll be there.
+              Working with your{" "}
+              <ButtonInline to="/reviews">trusted</ButtonInline>{" "}
+              <span className="">Calgary web designer</span> means that you will
+              always have easy and direct contact with me whether it be through
+              phone or email. No more waiting on hold with your web design
+              company or agency that has to go through 5 different people to
+              talk to the right person. Anytime you{" "}
+              <ButtonInline to="/contact">reach out to me</ButtonInline>, I’ll
+              be there.
             </p>
           </BenefitItem>
         </GridThree>

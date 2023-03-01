@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { ButtonPrimaryDark } from "../buttons"
+import { ButtonInline, ButtonPrimaryDark } from "../buttons"
 import { Container, Section, Actions } from "../layoutComponents"
 
 const Wrapper = styled.div`
@@ -34,9 +34,13 @@ export default function Cta1() {
           </div>
           <p className="">
             Don't settle for a website that's going to sit there doing nothing
-            for you. Hire your new web designer in Calgary to captivate your
-            audience while you outshine, outrank, and outperform your online
-            competition... <span className="italics bold">in your sleep!</span>
+            for you. Hire your new{" "}
+            <ButtonInline to="/services/web-design-calgary">
+              web designer in Calgary
+            </ButtonInline>{" "}
+            to captivate your audience while you outshine, outrank, and
+            outperform your online competition...{" "}
+            <span className="italics bold">in your sleep!</span>
           </p>
           <Actions>
             <ButtonPrimaryDark to="/contact">

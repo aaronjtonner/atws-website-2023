@@ -2,7 +2,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { AnchorInline, ButtonPrimary } from "../buttons"
+import { AnchorInline, ButtonInline, ButtonPrimary } from "../buttons"
 import { Container, GridTwo, Section } from "../layoutComponents"
 
 const Text = styled.div`
@@ -64,7 +64,12 @@ export default function Gallery() {
           </h2>
           <p>
             Below are a few recent{" "}
-            <span className="italics bold">Calgary Alberta website design</span>{" "}
+            <ButtonInline
+              to="/services/web-design-calgary"
+              className="italics bold"
+            >
+              Calgary Alberta website design
+            </ButtonInline>{" "}
             and development projects that I’ve launched to help local businesses
             just like yours grow and expand their online presence and get seen
             by more customers that are searching for their services on the
@@ -169,8 +174,9 @@ export default function Gallery() {
           <p>
             Call me at{" "}
             <AnchorInline href="tel: 587-437-9161">587-437-9161</AnchorInline>{" "}
-            or fill out my contact form to request a service or free Calgary
-            website quote!
+            or fill out my{" "}
+            <ButtonInline to="/contact">contact form</ButtonInline> to request a
+            service or free Calgary website quote!
           </p>
           <ButtonPrimary to="/contact">request quote &#x2192;</ButtonPrimary>
         </div>

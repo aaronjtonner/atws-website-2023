@@ -96,17 +96,15 @@ export default function Reviews() {
       <Section>
         <Container>
           <Text className="spacing">
-            <h2 className="title center">
-              more information coming soon to this page!
-            </h2>
+            <h2 className="title center">5-star reviews</h2>
             <p className="center">
-              I'm currently working on this about page. When it's live, you'll
+              {/* I'm currently working on this about page. When it's live, you'll
               find more information about how I might be able to help your
               business website or SEO. In the meantime, use the{" "}
               <ButtonInline to="/services/web-design-calgary">
                 web design service page
               </ButtonInline>{" "}
-              for more information.
+              for more information. */}
             </p>
             <GridAuto>
               <Review

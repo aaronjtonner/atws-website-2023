@@ -1,6 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
+import { ButtonInline } from "../buttons"
 import { Container, Section } from "../layoutComponents"
 
 const GridAuto = styled.div`
@@ -31,12 +32,22 @@ export default function Clients() {
             design & SEO clients...
           </h2>
           <p>
-            Since starting a web design & development business in early 2020, I
-            have had the pleasure of working with a variety of industries on
-            their website and SEO, including construction & home services,
-            lodging, automotive, manufacturing, engineering, health & wellness,
-            fine arts, advertising, and more. Below are a few of those lucky
-            clients!
+            Since starting a{" "}
+            <ButtonInline to="/about">
+              web design & development business
+            </ButtonInline>{" "}
+            in early 2020, I have had the pleasure of working with a variety of
+            industries on their{" "}
+            <ButtonInline to="/services/web-design-calgary">
+              website
+            </ButtonInline>{" "}
+            and{" "}
+            <ButtonInline to="/services/calgary-seo-services">
+              SEO services
+            </ButtonInline>
+            , including construction & home services, lodging, automotive,
+            manufacturing, engineering, health & wellness, fine arts,
+            advertising, and more. Below are a few of those lucky clients!
           </p>
         </Text>
         <GridAuto>
