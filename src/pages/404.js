@@ -1,10 +1,17 @@
 import * as React from "react"
+import styled from "styled-components"
 import BannerPrimary from "../components/banners/bannerPrimary"
 import { ButtonInline } from "../components/buttons"
 
 import Layout from "../components/layout"
 import { Container, Section } from "../components/layoutComponents"
 import SEO from "../components/seo"
+
+const Text = styled.div`
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+`
 
 const NotFoundPage = () => (
   <Layout>
