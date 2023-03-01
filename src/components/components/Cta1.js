@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { ButtonInline, ButtonPrimaryDark } from "../buttons"
+import { ButtonInlineLight, ButtonPrimaryDark } from "../buttons"
 import { Container, Section, Actions } from "../layoutComponents"
 
 const Wrapper = styled.div`
@@ -35,9 +35,12 @@ export default function Cta1() {
           <p className="">
             Don't settle for a website that's going to sit there doing nothing
             for you. Hire your new{" "}
-            <ButtonInline className="light" to="/services/web-design-calgary">
+            <ButtonInlineLight
+              className="light"
+              to="/services/web-design-calgary"
+            >
               web designer in Calgary
-            </ButtonInline>{" "}
+            </ButtonInlineLight>{" "}
             to captivate your audience while you outshine, outrank, and
             outperform your online competition...{" "}
             <span className="italics bold">in your sleep!</span>

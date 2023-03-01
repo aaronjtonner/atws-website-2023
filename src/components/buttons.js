@@ -151,6 +151,11 @@ export const ButtonInline = styled(props => <Link {...props} />)`
   color: var(--clr-accent);
   text-decoration: none;
 `
+export const ButtonInlineLight = styled(props => <Link {...props} />)`
+  cursor: pointer;
+  display: inline-block;
+  color: var(--txt-light);
+`
 
 // Anchors
 export const AnchorPrimary = styled.a`
