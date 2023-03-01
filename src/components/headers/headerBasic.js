@@ -289,6 +289,9 @@ export default function HeaderBasic() {
                   <StyledLink to="/portfolio">portfolio</StyledLink>
                 </li>
                 <li>
+                  <StyledLink to="/reviews">reviews</StyledLink>
+                </li>
+                <li>
                   <StyledLink to="/contact">contact</StyledLink>
                 </li>
               </NavList>

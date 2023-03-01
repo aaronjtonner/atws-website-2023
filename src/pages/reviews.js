@@ -45,6 +45,10 @@ const Flex = styled.div`
   }
 `
 
+const fontStyle = {
+  color: "var(--clr-accent)",
+}
+
 const Review = props => {
   return (
     <Wrapper className="spacing">

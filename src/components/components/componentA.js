@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, GridAuto, Section } from "../layoutComponents"
-import { ButtonPrimary } from "../buttons"
+import { ButtonInline, ButtonPrimary } from "../buttons"
 
 const GridWrapper = styled.div`
   display: grid;
@@ -51,10 +51,11 @@ const ComponentA = () => {
                 current website and online presence isn’t helping you overcome
                 the sales and marketing challenges of doing so. The solution to
                 overcome those common business challenges is to work with a
-                trusted website design Calgary professional whose mission is to
-                advance your sales and marketing efforts so you can grow and
-                expand your business by increasing your customer connections and
-                revenue through a standout online presence.
+                <ButtonInline to="reviews">trusted</ButtonInline> website design
+                Calgary professional whose mission is to advance your sales and
+                marketing efforts so you can grow and expand your business by
+                increasing your customer connections and revenue through a
+                standout online presence.
               </p>
               <ButtonPrimary to="/contact">get in touch &#8594;</ButtonPrimary>
             </Text>
