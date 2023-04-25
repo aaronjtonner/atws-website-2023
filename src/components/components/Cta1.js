@@ -39,7 +39,7 @@ export default function Cta1() {
               className="light"
               to="/services/web-design-calgary"
             >
-              web designer in Calgary
+              web designers Calgary
             </ButtonInlineLight>{" "}
             to captivate your audience while you outshine, outrank, and
             outperform your online competition...{" "}
@@ -47,7 +47,7 @@ export default function Cta1() {
           </p>
           <Actions>
             <ButtonPrimaryDark to="/contact">
-              Let's get in touch &#8594;
+              get started &#8594;
             </ButtonPrimaryDark>
           </Actions>
         </Text>

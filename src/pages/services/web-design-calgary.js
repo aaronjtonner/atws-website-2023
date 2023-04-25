@@ -1,7 +1,11 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import BannerSecondary from "../../components/banners/bannerSecondary"
-import { ButtonPrimary } from "../../components/buttons"
+import {
+  AnchorInline,
+  ButtonInline,
+  ButtonPrimary,
+} from "../../components/buttons"
 import Layout from "../../components/layout"
 import {
   Container,
@@ -23,6 +27,7 @@ import ComponentD from "../../components/components/componentD"
 import Faq1 from "../../components/components/Faq1"
 import ComponentE from "../../components/components/componentE"
 import FormContact from "../../components/forms/formContact"
+import Faq2 from "../../components/components/Faq2"
 
 export default function WebDesignCalgary() {
   return (
@@ -167,15 +172,19 @@ export default function WebDesignCalgary() {
                 </h2>
               </div>
               <p>
-                I have been highly reviewed after working with a variety of
-                industries including tech startups, ecommerce businesses, home
-                renovators, electricians, concrete contractors, 3D printing
-                shops and other professional service providers. If you’re
-                looking for reputable website design companies in Calgary, you
-                have met your match! <br />
+                I have been{" "}
+                <ButtonInline to="/reviews">highly reviewed</ButtonInline> after
+                working with a variety of industries including tech startups,
+                ecommerce businesses, home renovators, electricians, concrete
+                contractors, 3D printing shops and other professional service
+                providers. If you’re looking for reputable website design
+                companies in Calgary, you have met your match! <br />
                 <br /> It is my goal to create an outstanding website design
                 that will help grow your business by getting more visibility and
-                search traffic from quality customers online. <br />
+                <ButtonInline to="/services/calgary-seo-services">
+                  search traffic
+                </ButtonInline>{" "}
+                from quality customers online. <br />
                 <br /> Your customers and clients have high expectations for
                 your online appearance and it’s important that you stand out
                 from your local competition with a custom website design. I’m
@@ -276,7 +285,7 @@ export default function WebDesignCalgary() {
           <FlexMobileOpp>
             <StaticImage
               class="stretch img-left"
-              src="../../images/projects/free-web-hosting-services-calgary.jpg"
+              src="../../images/free-web-hosting-services-calgary.jpg"
               alt="web hosting services calgary"
             />
             <div className="spacing">
@@ -287,12 +296,31 @@ export default function WebDesignCalgary() {
                 <h2 className="title">website hosting & security</h2>
               </div>
               <p>
-                Not only will you receive top-notch customer service from your
-                web designer Calgary, you’ll also be provided with free website
-                hosting solutions through the use of Netlify and Github. The
-                combination of these technologies provide fast, secure, and
-                reliable website hosting solutions that takes the work off your
-                hands. 
+                Not only will you receive{" "}
+                <ButtonInline to="/reviews">
+                  5-star customer service
+                </ButtonInline>{" "}
+                from your web designer Calgary, you’ll also be provided with
+                free website hosting solutions through the use of{" "}
+                <AnchorInline
+                  href="https://www.netlify.com/"
+                  target="_blank
+                "
+                >
+                  Netlify
+                </AnchorInline>{" "}
+                and
+                <AnchorInline
+                  href="https://www.github.com/"
+                  target="_blank
+                "
+                >
+                  {" "}
+                  Github
+                </AnchorInline>
+                . The combination of these technologies provide fast, secure,
+                and reliable website hosting solutions that takes the work off
+                your hands. 
               </p>
               <ButtonPrimary to="/contact">
                 get hosting services &#8594;
@@ -314,16 +342,52 @@ export default function WebDesignCalgary() {
                 </h2>
               </div>
               <p>
-                Need website SEO support service in Calgary Alberta? Included in
-                my website services are image optimization and semantic HTML and
-                quality code to make it easier for your business to be found on
-                google. Along with that, I optimize page layout and create
-                compelling SEO content and other internet marketing services to
-                help increase your website visibility on search engines like
-                google. I’ll set up google analytics for your website to monitor
-                user engagement and interaction data, as well as submit your
-                sitemap to the google search console so your website will get
-                indexed by google to show up in the search results.
+                Need{" "}
+                <ButtonInline to="/services/calgary-seo-services">
+                  website SEO
+                </ButtonInline>{" "}
+                support service in Calgary Alberta? Included in my website
+                services are image optimization and semantic HTML and quality
+                code to make it easier for your business to be found on google.
+                Along with that, I optimize page layout and create compelling{" "}
+                <ButtonInline to="/services/calgary-seo-services">
+                  SEO content
+                </ButtonInline>{" "}
+                and other internet marketing services to help increase your
+                website visibility on search engines like google and bing. I’ll
+                set up{" "}
+                <AnchorInline
+                  href="https://analytics.google.com"
+                  target="_blank
+                "
+                >
+                  google analytics
+                </AnchorInline>{" "}
+                for your website to monitor user engagement and interaction
+                data, as well as submit your sitemap to the{" "}
+                <AnchorInline
+                  href="https://search.google.com/search-console/about"
+                  target="_blank
+                "
+                >
+                  google search console
+                </AnchorInline>{" "}
+                so your new Calgary website design will get indexed by google to
+                show up in the organic search engine results page (
+                <AnchorInline
+                  href="https://backlinko.com/hub/seo/serps"
+                  target="_blank"
+                >
+                  SERP
+                </AnchorInline>
+                ) and{" "}
+                <AnchorInline
+                  href="https://ahrefs.com/seo/glossary/local-pack"
+                  target="_blank"
+                >
+                  local map pack
+                </AnchorInline>
+                .
               </p>
               <ButtonPrimary to="/contact">
                 get SEO services &#8594;
@@ -341,6 +405,7 @@ export default function WebDesignCalgary() {
       <ComponentD />
       <Faq1 />
       <ComponentE />
+      <Faq2 />
       <FormContact />
       <Cta1 />
     </Layout>

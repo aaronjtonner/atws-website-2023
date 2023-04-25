@@ -21,6 +21,10 @@ const BenefitItem = styled.div`
   //   color: var(--clr-light);
   padding: 2em;
   border-radius: var(--br);
+
+  h3 {
+    color: var(--clr-accent);
+  }
 `
 
 export default function Benefits() {
@@ -97,6 +101,63 @@ export default function Benefits() {
               talk to the right person. Anytime you{" "}
               <ButtonInline to="/contact">reach out to me</ButtonInline>, I’ll
               be there.
+            </p>
+          </BenefitItem>
+          <BenefitItem className="spacing center">
+            <StaticImage
+              src="../../images/website-design-calgary-ab-cheerful.svg"
+              alt="website design calgary, AB"
+              height={80}
+            />
+            <h3 className="title caps">your web design cheerleader</h3>
+            <p>
+              Let's face it - building a website can be stressful. But when you
+              work with me, I'm here to make the process as fun and enjoyable as
+              possible. I'm like your personal Calgary website design
+              cheerleader, rooting for you every step of the way. I'll celebrate
+              your victories with you (like when your website traffic starts to
+              soar) and pick you up when you're feeling discouraged (because I
+              know how tough the online world can be). And if you're feeling
+              stuck creatively, I'll be happy to brainstorm with you and come up
+              with fresh ideas that will make your website pop. With me as your
+              web designer, you'll feel confident and motivated to take on the
+              digital world.
+            </p>
+          </BenefitItem>
+          <BenefitItem className="spacing center">
+            <StaticImage
+              src="../../images/web-designers-calgary-different.svg"
+              alt="not your average web designers calgary"
+              height={80}
+            />
+            <h3 className="title caps">not your average website designer</h3>
+            <p>
+              I take pride in being anything but ordinary - breaking the mold of
+              traditional Calgary website design services by injecting
+              personality, creativity, and even humor into my work. I believe
+              that web design doesn't have to be boring or stuffy, and I'm not
+              afraid to take risks and try new things. With me, you'll get a
+              website design in Calgary that truly stands out from the rest.
+            </p>
+          </BenefitItem>
+          <BenefitItem className="spacing center">
+            <StaticImage
+              src="../../images/calgary-website-design-relationships.svg"
+              alt="not your average web designers calgary"
+              height={80}
+            />
+            <h3 className="title caps">focused on relationships</h3>
+            <p>
+              I believe that the best Calgary website design is a result of
+              strong relationships. That's why I don't just build your website
+              and leave you in the dust. I'm here for you every step of the way,
+              from the initial consultation to the launch of your website and
+              beyond. I'll work with you to make sure your website stays up to
+              date and meets your changing needs as your business grows. Plus,
+              I'm not impossible to get intouch with - I'm always just a phone
+              call or email away if you need me. You'll not only get a great
+              website design in Calgary, but you'll also gain a long-term
+              partner who's invested in your success.
             </p>
           </BenefitItem>
         </GridThree>

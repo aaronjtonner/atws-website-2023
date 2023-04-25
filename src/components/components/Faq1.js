@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react"
 import { Container, FlexMobileOpp, Section } from "../layoutComponents"
 import styled from "styled-components"
-import { ButtonSecondaryLight } from "../buttons"
+import { ButtonInline, ButtonSecondaryLight } from "../buttons"
 
 const Wrapper = styled.div`
   background: var(--clr-dark);
@@ -48,7 +48,8 @@ export default function Faq1(props) {
                   <ul>
                     <li>
                       A website will put your business online and in front of
-                      customers who are constantly searching for the services or
+                      customers who are constantly searching for the{" "}
+                      <ButtonInline to="/services">services</ButtonInline> or
                       products that you offer, leading to new business
                       opportunities and company growth.
                     </li>
@@ -92,10 +93,13 @@ export default function Faq1(props) {
                 <AccordionPanel pb={4}>
                   <ul>
                     <li>
-                      Customers won’t know about you if they can’t find you
-                      online. A website is going to improve the chances that
-                      your business is found by a customer online, thus
-                      improving brand awareness
+                      Customers won’t know about you if they can’t{" "}
+                      <ButtonInline to="/services/calgary-seo-services">
+                        find you online
+                      </ButtonInline>
+                      . A website is going to improve the chances that your
+                      business is found by a customer online, thus improving
+                      brand awareness
                     </li>
                     <li>
                       A website can be used for online advertising and
@@ -132,22 +136,27 @@ export default function Faq1(props) {
                 <AccordionPanel pb={4}>
                   <ul>
                     <li>
-                      An increase in online visibility = more potential sales
+                      An increase in{" "}
+                      <ButtonInline to="/services/calgary-seo-services">
+                        online visibility
+                      </ButtonInline>{" "}
+                      = more potential sales
                     </li>
                     <li>
-                      A website is showing all the good stuff about your
-                      business leading to more trust from customers and better
-                      reputation, therefore greater sales potential
+                      A Calgary website design is showing all the good stuff
+                      about your business leading to more trust from customers
+                      and better reputation, therefore greater sales potential
                     </li>
                     <li>
-                      Almost no time or effort has to be put in by you once your
-                      website is complete - it’s working in the background as
-                      the salesman for the business{" "}
+                      As long as you have a quality web designer maintaining
+                      your website, almost no time or effort has to be put in by
+                      you once your website is built - it’s working in the
+                      background as the salesman for the business{" "}
                     </li>
                     <li>
-                      A website can help you standout from the competition
-                      leading to more attention from customers and greater sales
-                      potential
+                      A website design in Calgary can help you standout from the
+                      competition leading to more attention from customers and
+                      greater sales potential
                     </li>
                     <li>
                       A website can result in more leads for your business,
@@ -155,9 +164,9 @@ export default function Faq1(props) {
                       paying customers
                     </li>
                     <li>
-                      A website can reduce the overall workload for you as a
-                      business owner, and you can focus on more revenue-building
-                      activities
+                      A Calgary website designer can reduce the overall workload
+                      for you as a business owner, and you can focus on more
+                      revenue-building activities
                     </li>
                   </ul>
                 </AccordionPanel>
@@ -184,9 +193,11 @@ export default function Faq1(props) {
                       improving your reputation
                     </li>
                     <li>
-                      A website is directly placing your business into a
-                      marketplace loaded with ideal customers in need of your
-                      services or products
+                      If you're based in Calgary, having a website is directly
+                      placing your business into a marketplace loaded with ideal
+                      customers in need of your{" "}
+                      <ButtonInline to="/services">services</ButtonInline> or
+                      products
                     </li>
                     <li>
                       A website can result in more leads, providing you with
@@ -202,11 +213,12 @@ export default function Faq1(props) {
               </h2>
               <div className="spacing">
                 <p>
-                  Are you a business owner who is struggling to grow and expand
-                  your operations? Are you having a hard time improving your
-                  brand awareness due to lack of time and marketing? Are you
-                  struggling to reach your sales goals? Do you want to get more
-                  high quality customers and increase your revenue?
+                  Are you a Calgary-based business owner who is struggling to
+                  grow and expand your operations? Are you having a hard time
+                  improving your brand awareness due to lack of time and
+                  marketing? Are you struggling to reach your sales goals? Do
+                  you want to get more high quality customers and increase your
+                  revenue?
                 </p>
                 <p>
                   I speak with business owners of different professions on a

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
+import { ButtonInline } from "../buttons"
 
 const GridWrapper = styled.div`
   //   display: grid;
@@ -58,10 +59,11 @@ export default function ComponentD() {
               </h2>
             </div>
             <p>
-              My Calgary Alberta web design services are meant to help a large
-              variety of industries and professionals. So whether you run a
-              local shop, or provide professional services, I’m here to build,
-              manage, and market your professional business website.
+              My Calgary Alberta web design{" "}
+              <ButtonInline to="/services">services</ButtonInline> are meant to
+              help a large variety of industries and professionals. So whether
+              you run a local shop, or provide professional services, I’m here
+              to build, manage, and market your professional business website.
             </p>
           </Container>
         </Text>
