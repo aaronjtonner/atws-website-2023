@@ -176,7 +176,7 @@ export default function Gallery() {
             <AnchorInline href="tel: 587-437-9161">587-437-9161</AnchorInline>{" "}
             or fill out my{" "}
             <ButtonInline to="/contact">contact form</ButtonInline> to request a
-            service or free Calgary website quote!
+            service or free Calgary website design quote!
           </p>
           <ButtonPrimary to="/contact">request quote &#x2192;</ButtonPrimary>
         </div>

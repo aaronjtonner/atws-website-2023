@@ -57,7 +57,27 @@ const ComponentA = () => {
                 business by increasing your customer connections and revenue
                 through a standout online presence.
               </p>
-              <ButtonPrimary to="/contact">get in touch &#8594;</ButtonPrimary>
+              <h3>A Calgary web design company with a twist</h3>
+              <p>
+                <span className="italics">
+                  Save thousands with a wildly affordable Calgary website design
+                  subscription and get lifetime edits and hosting for less than
+                  $100 per month.
+                </span>{" "}
+                <br /> <br /> Want a web designer that’ll offer lifetime edits
+                without the wait? Want to the freedom to cancel or pause your
+                Calgary web design subscription at anytime without losing your
+                website? Want to save thousands of dollars every year on your
+                website and marketing costs? Want a custom SEO website design
+                Calgary that will propel your business to new heights at an
+                insane return? Look no further! This plan is perfect for you,
+                especially if you want a robust website in less than 48 hours
+                after signing up. Just hit the button below to get started with
+                your Calgary web designer!
+              </p>
+              <ButtonPrimary to="/contact">
+                get your $100 website &#8594;
+              </ButtonPrimary>
             </Text>
             <StaticImage
               src="../../images/web-design-calgary-image-2.svg"

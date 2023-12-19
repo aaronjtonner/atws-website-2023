@@ -88,14 +88,10 @@ export default function FormContact(props) {
 
               <div className="spacing-sm">
                 <Label htmlFor="msg">* Message:</Label>
-                <TextArea
-                  name="msg"
-                  id="msg"
-                  cols="30"
-                  rows="10"
-                  placeholder="What's your website project?"
-                  required
-                />
+                <TextArea name="msg" id="msg" cols="30" rows="10" required>
+                  Hi Aaron, I saw your $100 website offer with lifetime edits
+                  and hosting and I'd love to hear more about it!
+                </TextArea>
               </div>
               <Submit type="submit" id="submit" value="send" />
             </form>
