@@ -19,6 +19,11 @@ import Cta1 from "../../components/components/Cta1"
 import { StaticImage } from "gatsby-plugin-image"
 import FormContact from "../../components/forms/formContact"
 import styled from "styled-components"
+import SEOa from "../../components/components/SEOa"
+import Clients from "../../components/components/clients"
+import CtaSeo from "../../components/components/CtaSeo"
+import SEOc from "../../components/components/SEOc"
+import Faq1Seo from "../../components/components/Faq1Seo"
 
 const Text = styled.div`
   max-width: 70ch;
@@ -169,11 +174,27 @@ export default function WebDesignCalgary() {
           </Text>
         </Container>
       </Section>
+      <SEOa />
+      <Clients />
+      <CtaSeo
+        title="Get Your Revenue-Generating Machine With Calgary SEO"
+        body="All it takes to get started on your Calgary SEO campaign is clicking the button below! Outrank, outshine, and outperform your online competition... in your sleep!"
+        cta="get sprinting!"
+      />
+      <SEOc />
+      <Faq1Seo />
+      <CtaSeo
+        title="Get Your SEO Sprint!"
+        body="My SEO Sprint is a wildly affordable SEO service package that combines some of the best SEO strategies I've used over the years that'll give you the most bang for your buck!"
+        cta="get sprinting!"
+      />
+
       <AllReviews
         subheader="does creating a winning SEO strategy elude you?"
         title="dedicated to providing real results for calgary SEO
                   clients"
       />
+
       <FormContact />
     </Layout>
   )

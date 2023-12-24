@@ -89,9 +89,7 @@ export default function BannerSecondary(props) {
             />
             <h1>{props.title}</h1>
             <p>{props.description}</p>
-            <AnchorPrimary href="tel: 587-437-9161">
-              call for quote: (587)-437-9161
-            </AnchorPrimary>
+            <ButtonPrimary to="/contact">get your quote &#8594;</ButtonPrimary>
           </Text>
         </Container>
       </HeroWrapper>
