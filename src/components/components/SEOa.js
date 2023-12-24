@@ -55,10 +55,7 @@ const SEOa = () => {
                 get your SEO sprint &#8594;
               </ButtonPrimary>
             </Text>
-            <StaticImage
-              src="../../images/web-design-calgary-image-2.svg"
-              alt="web design calgary"
-            />
+            <StaticImage src="../../images/seo-calgary.png" alt="seo calgary" />
           </Container>
         </Content>
       </GridWrapper>

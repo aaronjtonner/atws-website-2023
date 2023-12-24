@@ -147,11 +147,11 @@ export default function Faq1Seo(props) {
                     that typically has better & faster results with an existing
                     website that doesn't look like it's from 1995. If you're not
                     quite there, feel free to inquire about my wildly affordable{" "}
-                    <AnchorInline to="/services/web-design-calgary">
+                    <ButtonInline to="/services/web-design-calgary">
                       $100 website offer
-                    </AnchorInline>
+                    </ButtonInline>
                     . Otherwise, I'd be happy to{" "}
-                    <AnchorInline to="/contact">chat</AnchorInline> with you
+                    <ButtonInline to="/contact">chat</ButtonInline> with you
                     further about your SEO questions.
                   </p>
                 </AccordionPanel>

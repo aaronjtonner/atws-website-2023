@@ -160,8 +160,8 @@ export default function SEOc(props) {
             </div>
             <Flex>
               <StaticImage
-                src="../../images/calgary-web-designer-results-for-2-locals.jpg"
-                alt="calgary web designer gets results"
+                src="../../images/seo-services-calgary.jpg"
+                alt="seo services calgary"
               />
             </Flex>
             <ServiceAreas className="spacing">

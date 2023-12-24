@@ -140,7 +140,7 @@ export default function WebDesignCalgary() {
         title="Calgary SEO services for small businesses"
         description="Work with an independent and highly reviewed SEO Calgary service specialist focused on helping clients achieve increased online visibility and customer conversions to maximize business revenue."
       />
-      <Section>
+      {/* <Section>
         <Container>
           <Text className="spacing">
             <h2 className="title center">
@@ -173,7 +173,7 @@ export default function WebDesignCalgary() {
             </p>
           </Text>
         </Container>
-      </Section>
+      </Section> */}
       <SEOa />
       <Clients />
       <CtaSeo
